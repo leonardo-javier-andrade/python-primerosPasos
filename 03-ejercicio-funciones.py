@@ -1,34 +1,34 @@
-# def saludo(nombre):
-#     print(f"Buenos dias {nombre}")
-#     print("Bienvenido al curso")
+def saludo(nombre):
+    print(f"Buenos dias {nombre}")
+    print("Bienvenido al curso")
 
 
-# tunombre= input("ingresa tu nombre: ")
+tunombre= input("ingresa tu nombre: ")
 
-# saludo(tunombre)
+saludo(tunombre)
 
 
-# #Funcion de resta
+#Funcion de resta
 
-# def resta(a,b):
-#     if a== None or b== None:
-#         print("Debe ingresar dos numeros para realizar la resta")
-#         return 
+def resta(a,b):
+    if a== None or b== None:
+        print("Debe ingresar dos numeros para realizar la resta")
+        return 
     
-#     return a-b
+    return a-b
 
 
 
-# num1 = int(input("ingrese el primer numero a restar: "))
-# num2= int(input("ingrese el segundo numero a restar: "))
+num1 = int(input("ingrese el primer numero a restar: "))
+num2= int(input("ingrese el segundo numero a restar: "))
 
-# c= resta(num1,num2)
+c= resta(num1,num2)
 
-# print(f"la resta de {num1} menos {num2} es igual a: {c}")
+print(f"la resta de {num1} menos {num2} es igual a: {c}")
 
 
 
-#Funcion de conversion de grados
+# Funcion de conversion de grados
 
 def convertirgrados(grados,unidad):
     if unidad == "c" or unidad == "C":
