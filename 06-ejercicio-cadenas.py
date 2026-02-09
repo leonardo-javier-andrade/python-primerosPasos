@@ -74,3 +74,33 @@ texto = " ".join(lista_palabras) #une la lista de palabras en una cadena separad
 print (texto)   
 
  
+#Reto : Crear un programa que solicite nombre y apellido de Usuario 
+
+#Que muestre 
+#1-Nombre  completo con todas las letras mayusculas
+#2- Nombre completo con todas las letras minusculas
+#3- Que cuente cuantas letras tiene el nombre completo sin contar los espacios
+#4 - Cuantas letras tiene el primer nombre
+
+
+print("--------------RETO-------------")
+
+nombre = input ("Ingrese su nombre completo: ")
+
+print (f" su nombre ingresado es {nombre}")
+
+print (f"#1 su nombre een mayuscula {nombre.upper()} ")
+
+print (f"#2 su nombre en minuscula: {nombre.lower()}")
+
+def Sinespacios():
+    global lista
+    lista = nombre.split()
+    print(lista)
+    global  nombreSinEspacios
+    nombreSinEspacios = "".join(lista)
+Sinespacios()
+print(f"#3 la cantidad de caracteres sin escpacio es {len(nombreSinEspacios)}")
+
+
+print (f"La cantidad de letras del primer nombre es: {len(lista[0])}")
